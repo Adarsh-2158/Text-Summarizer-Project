@@ -1,0 +1,22 @@
+transformers #hugging face API
+transformers[sentencepiece] #for tokenizers
+datasets
+sacrebleu #for evaluation
+rouge_score #for evaluation
+py7zr #for loading datasets
+pandas #for data manipulation
+nltk #for text processing
+tqdm #for progress bars
+PyYAML #for configuration files
+matplotlib #for plotting
+torch #for model training
+notebook #for Jupyter notebook support
+boto3 #for AWS S3 support
+mypy-boto3-s3 #for type checking with boto3
+python-box==6.0.2 #for configuration management
+ensure==1.0.2
+fastapi==0.78.0 #for building APIs
+uvicorn==0.18.3 #for serving FastAPI applications
+jinja2==3.1.2 #for templating in FastAPI
+-e . #for local development
+# Add any additional dependencies here
